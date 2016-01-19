@@ -7,10 +7,8 @@ Create class ApiClientConfig to using this function
 
 After that call function
 
-<code>
-  BoxApiClient client = new BoxApiClient();
-  
-  String authorizeCode = client.getAuthorizeCode(config);
-</code>
+<code>BoxApiClient client = new BoxApiClient();</code>
+<code>String authorizeCode = client.getAuthorizeCode(config);</code>
+
 
 After that using BoxSDK (https://github.com/box/box-java-sdk) to authorize
