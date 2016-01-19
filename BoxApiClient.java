@@ -1,4 +1,4 @@
-package com.hickup.hurryapp.service.box;
+package com.xxx.xxx.xxx.box;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import org.apache.http.Header;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -23,9 +22,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
 import com.box.sdk.BoxAPIConnection;
-import com.hickup.hurryapp.service.showpad.ApiClientConfig;
 
 @SuppressWarnings("deprecation")
 public class BoxApiClient {
